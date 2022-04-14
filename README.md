@@ -23,3 +23,6 @@
 - API: https://thronesapi.com/api/v2/Characters
 - Lenguajes: HTML, CSS, JS
 
+<h3>Links</h3>
+
+https://welleh.github.io/Game-of-Thrones-characters/
