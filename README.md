@@ -25,4 +25,4 @@
 
 <h3>Links</h3>
 
-https://welleh.github.io/Game-of-Thrones-characters/
+- https://welleh.github.io/Game-of-Thrones-characters/
