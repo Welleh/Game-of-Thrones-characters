@@ -72,4 +72,3 @@ function SortArray(x, y){
     if (x.fullName > y.fullName) {return 1;}
     return 0;
 }
-
