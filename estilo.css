@@ -17,6 +17,7 @@ h1 {
     width: 200px;
     margin-top: 35px;
     border: 2px solid #DDDCDA;
+    object-fit: cover;
 }
 
 .modal-name {
@@ -72,6 +73,7 @@ h1 {
     height: 50px;
     border-radius: 50%;
     margin-left: 27px;
+    object-fit: cover;
 }
 
 .flex-text {
@@ -81,6 +83,11 @@ h1 {
 .icon {
     font-size: 50px;
     margin-right: 22px;
+}
+
+.icon-button {
+    background: none;
+    border: none;
 }
 
 .icon:hover {
@@ -95,18 +102,18 @@ h1 {
     z-index: 1; /* Sit on top */
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
+    width: 100vw; /* Full width */
+    height: 100vh; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-
+    justify-content: center;
+    align-items: center;
 }
   
 /* Modal Content/Box */
 .modal-content {
     background-color: #3A373E;
-    margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     width: 454px;
     height: 487px;/* Could be more or less, depending on screen size */
